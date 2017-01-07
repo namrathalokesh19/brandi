@@ -115,11 +115,10 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
+                    
                         <li class="current"><a href="#body">Home</a></li>
 						
 						<li><a href="#works">Place Bulk Order</a></li>
-						
-						<li><a href="#works1">Works</a></li>
 						
 						<li><a href="#features">Upcoming Features</a></li>
                         
@@ -161,7 +160,7 @@
 							
 							<a data-wow-duration="1000ms" class="btn btn-primary slideInRight animated" href="#works" style="background-color:#0eb493;">Place Bulk Order</a><!--autofocus? -->
 							
-							<p data-wow-duration="1000ms" class="slideInRight animated bounceInUp" style="padding-top: 25px;">For Bulk Orders, Call Us @ (+91) 9632125828</p>
+							<p data-wow-duration="1000ms" class="slideInRight animated bounceInUp" style="padding-top: 25px;">For Bulk Orders queries, Call Us @ <i class="fa fa-phone" aria-hidden="true"></i> <u><a href="<? echo ($detect->isMobile()) ? 'tel' : 'callto'; ?> :9632125828;ext=+91">(+91) 9632125828</a></u></p>
 							
 							<ul class="social-links text-center">
 								<li><a target="_blank" href="https://www.facebook.com/teemateStore/"><i class="fa fa-facebook fa-2x"></i></a></li>
