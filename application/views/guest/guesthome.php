@@ -187,7 +187,7 @@
   
 					<div class="sec-title text-center panel-heading">
 						<h2>Bulk Order</h2>
-						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+						<div class="devider"><i class="fa <fa-heart-o fa-lg"></i></div>
 					</div>
 					
 	<div class="panel-body">
@@ -198,8 +198,7 @@
 			
 				<div class="main box-border">
   
-					<form autocomplete action="<?= base_url('GuestHome/bulkOrder') ?>" onsubmit="submit()" method="post" id="bulkorderform">
-	
+					<form autocomplete action="<?= base_url('GuestHome/bulkOrder') ?>" method="post" id="bulkorderform">
 						<div class="row">
 						
 							<div class="col-md-1 col-sm-1">
@@ -221,7 +220,7 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="name">Full Name</label><span style="color:red;">*</span></label>
-									<input id="name" type="text" class="form-control" required placeholder="Full Name" maxlength="25" minlength="3" pattern="[A-Z a-z]+">
+									<input name="name" type="text" class="form-control" required placeholder="Full Name" maxlength="25" minlength="3" pattern="[A-Z a-z]+">
 								</div>
 							</div>
 							
