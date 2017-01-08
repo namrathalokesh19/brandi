@@ -207,7 +207,7 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="product">Product type</label>		
-									<select id="product" class="form-control" onchange="getmyprice()">
+									<select id="product" name="product" class="form-control" onchange="getmyprice()">
 										<option value="round" id="round" selected>Round Neck T-Shirts</option>
 										<option value="v" id="v">V Neck T-Shirts</option>
 										<option value="collar" id="collar">Collar T-Shirts</option>
@@ -220,7 +220,7 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="name">Full Name</label><span style="color:red;">*</span></label>
-									<input name="name" type="text" class="form-control" required placeholder="Full Name" maxlength="25" minlength="3" pattern="[A-Z a-z]+">
+									<input name="name" id="name" type="text" class="form-control" required placeholder="Full Name" maxlength="25" minlength="3" pattern="[A-Z a-z]+">
 								</div>
 							</div>
 							
@@ -239,7 +239,7 @@
 								
 								<div class="col-md-2 col-sm-4" style="padding-left: 0px;padding-right: 0px;">
 									<label for="unisex">Unisex<span style="color:red;">*</span></label>
-									<input id="unisex" class="form-control text-center" type="number" min="0" value="1" onchange="getmyprice1()" required/>
+									<input id="unisex" name="unisex" class="form-control text-center" type="number" min="0" value="1" onchange="getmyprice1()" required/>
 								</div>
 								
 								<div class="col-md-1">
@@ -248,7 +248,7 @@
 								
 								<div class="col-md-2 col-sm-4" style="padding-left: 0px;padding-right: 0px;">
 									<label for="male">Male</label><span style="color:red;">*</span></label>
-									<input class="form-control text-center" id="male"  type="number" min="0" value="0" onchange="getmyprice1()" required>
+									<input class="form-control text-center" id="male"  name="male" type="number" min="0" value="0" onchange="getmyprice1()" required>
 								</div>
 								
 								<div class="col-md-1">
@@ -256,7 +256,7 @@
 								
 								<div class="col-md-2 col-sm-4" style="padding-left: 0px;padding-right: 0px;">
 									<label for="female">Female<span style="color:red;">*</span></label>
-									<input id="female" class="form-control text-center" min="0" type="number" value="0" onchange="getmyprice1()" required>
+									<input id="female" name="female" class="form-control text-center" min="0" type="number" value="0" onchange="getmyprice1()" required>
 								</div>
 								
 								<div class="col-md-1">
@@ -264,7 +264,7 @@
 								
 								<div class="col-md-3 col-sm-4" style="padding-left: 0px;padding-right: 0px;">
 									<label for="total">Total T-shirts</label>
-									<input id="total" class="form-control text-center" min="1" value="1" type ="text" onchange="getmyprice1()" readonly>
+									<input id="total" name="total" class="form-control text-center" min="1" value="1" type ="text" onchange="getmyprice1()" readonly>
 								</div>
 									
 								</div>
@@ -273,7 +273,7 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="email">E-mail ID<span style="color:red;">*</span></label>
-									<input id="email" type="email" class="form-control" required placeholder="your@email.com">
+									<input id="email" name="email" type="email" class="form-control" required placeholder="your@email.com">
 								</div>
 							</div>
 							
@@ -292,7 +292,7 @@
 								<div class="form-group col-md-4" style="padding-left: 0px;padding-right: 3px;">
 								
 									<label for="front">Front Print Size</label>		
-									<select id="front" class="form-control" onchange="getmyprice()">
+									<select id="front" name="front" class="form-control" onchange="getmyprice()">
 										<option value="a4" id="a4" selected>A4</option>
 										<option value="a3" id="a3">A3</option>
 										<option value="blank" id="blank">Blank</option>
@@ -302,7 +302,7 @@
 							
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 3px;">
 									<label for="rear">Rear Print Size</label>		
-									<select id="rear" class="form-control" onchange="getmyprice()">
+									<select id="rear" name="rear" class="form-control" onchange="getmyprice()">
 										<option value="a4" id="a4" selected>A4</option>
 										<option value="a3" id="a3">A3</option>
 										<option value="blank" id="blank">Blank</option>
@@ -312,7 +312,7 @@
 								
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 0px;">
 									<label for="pocket">Pocket</label>		
-									<select id="pocket" class="form-control" onchange="getmyprice()">
+									<select id="pocket" name="pocket" class="form-control" onchange="getmyprice()">
 										<option value="print" id="print" selected>Print</option>
 										<option value="emb" id="emb">Embroidery</option>
 										<option value="blank" id="blank">Blank</option>
@@ -324,7 +324,7 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="contact">Mobile No.(+91)</label><span style="color:red;">*</span></label>
-									<input id="contact" class="form-control" required size="10" placeholder="Mobile No." pattern="\d{10}">
+									<input id="contact" name="contact" class="form-control" required size="10" placeholder="Mobile No." pattern="\d{10}">
 								</div>
 							</div>
 							
@@ -342,7 +342,7 @@
 																
 								<div class="form-group col-md-4" style="padding-left: 0px;padding-right: 3px;">
 									<label for="left">Left Sleeve</label>		
-									<select id="left" class="form-control" onchange="getmyprice()">
+									<select id="left" name="left" class="form-control" onchange="getmyprice()">
 										<option value="print" id="print" selected>Print</option>
 										<option value="emb" id="emb">Embroidery</option>
 										<option value="blank" id="blank">Blank</option>
@@ -352,7 +352,7 @@
 						
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 3px;">
 									<label for="right">Right Sleeve</label>		
-									<select id="right" class="form-control" onchange="getmyprice()">
+									<select id="right" name="right" class="form-control" onchange="getmyprice()">
 										<option value="print" id="print" selected>Print</option>
 										<option value="emb" id="emb">Embroidery</option>
 										<option value="blank" id="blank">Blank</option>
@@ -365,7 +365,7 @@
 							
 								<div class="form-group">
 									<label for="msg">Message</label><em>(optional)</em>
-									<textarea id="msg" class="form-control" rows="2" cols="34" name="msg" maxlength="100" placeholder="Max limit 100 characters"></textarea>
+									<textarea id="msg" name="msg" class="form-control" rows="2" cols="34" name="msg" maxlength="100" placeholder="Max limit 100 characters"></textarea>
 								</div>
 								
 							</div>
