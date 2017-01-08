@@ -207,12 +207,12 @@
 							<div class="col-md-5 col-sm-5">
 								<div class="form-group">
 									<label for="product">Product type</label>		
-									<select id="product" name="product" class="form-control" onchange="getmyprice()">
-										<option value="round" id="round" selected>Round Neck T-Shirts</option>
-										<option value="v" id="v">V Neck T-Shirts</option>
-										<option value="collar" id="collar">Collar T-Shirts</option>
-										<option id="hoodies"  value="hoodies">Hoodies</option>
-										<option id="zippers" value="zippers">Zippers</option>
+									<select id="product" name="product" class="form-control">
+										<option value="Round Neck T-Shirts" id="round" selected>Round Neck T-Shirts</option>
+										<option value="V Neck T-Shirts" id="v">V Neck T-Shirts</option>
+										<option value="Collar T-Shirts" id="collar">Collar T-Shirts</option>
+										<option id="Hoodies"  value="hoodies">Hoodies</option>
+										<option id="Zippers" value="zippers">Zippers</option>
 									</select>
 								</div>
 							</div>
@@ -292,30 +292,30 @@
 								<div class="form-group col-md-4" style="padding-left: 0px;padding-right: 3px;">
 								
 									<label for="front">Front Print Size</label>		
-									<select id="front" name="front" class="form-control" onchange="getmyprice()">
-										<option value="a4" id="a4" selected>A4</option>
-										<option value="a3" id="a3">A3</option>
-										<option value="blank" id="blank">Blank</option>
+									<select id="front" name="front" class="form-control">
+										<option value="A4" id="a4" selected>A4</option>
+										<option value="A3" id="a3">A3</option>
+										<option value="Blank" id="blank">Blank</option>
 									</select>
 									
 								</div>
 							
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 3px;">
 									<label for="rear">Rear Print Size</label>		
-									<select id="rear" name="rear" class="form-control" onchange="getmyprice()">
-										<option value="a4" id="a4" selected>A4</option>
-										<option value="a3" id="a3">A3</option>
-										<option value="blank" id="blank">Blank</option>
+									<select id="rear" name="rear" class="form-control">
+										<option value="A4" id="a4" selected>A4</option>
+										<option value="A3" id="a3">A3</option>
+										<option value="Blank" id="blank">Blank</option>
 									</select>
 								</div>
 								
 								
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 0px;">
 									<label for="pocket">Pocket</label>		
-									<select id="pocket" name="pocket" class="form-control" onchange="getmyprice()">
-										<option value="print" id="print" selected>Print</option>
-										<option value="emb" id="emb">Embroidery</option>
-										<option value="blank" id="blank">Blank</option>
+									<select id="pocket" name="pocket" class="form-control">
+										<option value="Print" id="print" selected>Print</option>
+										<option value="Embroidery" id="emb">Embroidery</option>
+										<option value="Blank" id="blank">Blank</option>
 									</select>
 								</div>
 								
@@ -342,20 +342,20 @@
 																
 								<div class="form-group col-md-4" style="padding-left: 0px;padding-right: 3px;">
 									<label for="left">Left Sleeve</label>		
-									<select id="left" name="left" class="form-control" onchange="getmyprice()">
-										<option value="print" id="print" selected>Print</option>
-										<option value="emb" id="emb">Embroidery</option>
-										<option value="blank" id="blank">Blank</option>
+									<select id="left" name="left" class="form-control">
+										<option value="Print" id="print" selected>Print</option>
+										<option value="Embroidery" id="emb">Embroidery</option>
+										<option value="Blank" id="blank">Blank</option>
 									</select>
 								</div>
 									
 						
 								<div class="form-group col-md-4" style="padding-left: 3px;padding-right: 3px;">
 									<label for="right">Right Sleeve</label>		
-									<select id="right" name="right" class="form-control" onchange="getmyprice()">
-										<option value="print" id="print" selected>Print</option>
-										<option value="emb" id="emb">Embroidery</option>
-										<option value="blank" id="blank">Blank</option>
+									<select id="right" name="right" class="form-control">
+										<option value="Print" id="print" selected>Print</option>
+										<option value="Embroidery" id="emb">Embroidery</option>
+										<option value="Blank" id="blank">Blank</option>
 									</select>
 								</div>
 	
